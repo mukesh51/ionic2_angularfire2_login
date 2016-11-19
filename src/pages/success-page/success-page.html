@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>SuccessPage</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  Welcome {{displayName}} 
+  <button ion-button outline [hidden]="showLogoutButton" (click)="logoutFacebook()">Logout</button>
+</ion-content>
